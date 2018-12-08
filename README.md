@@ -4,6 +4,5 @@ Click the menu icon to navigate through the website.
 
 URL: https://khanm1.github.io/Portfolio-updated
 
-Made with:
-Materialize:
-https://materializecss.com/getting-started.html
+I added four of my projects (giftastic, train-schedule, TriviaGame and Word-Guess-Game).
+
