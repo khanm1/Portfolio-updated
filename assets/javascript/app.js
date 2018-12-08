@@ -18,7 +18,7 @@ $(document).ready(function () {
 
     function populateAbout() {
         var aboutTitle = $("<p id='about-headText'><span class='red-text'>About Me</span>:</p>");
-        var aboutContent = $("<p id='about-text'>I graduated from Boston, MA with a Bachelor's degree. While in school I was working full time as a Data Entry coordinator for Boston Scientific Corporation. After finishing school, I was promoted to corporate head quarter as Senior analyst. 2014 I moved to Chicago with a job at Allstate Insurance corporation as a lead QA analyst. </p>")
+        var aboutContent = $("<p id='about-text'>I graduated from Boston, MA with a Bachelor's degree. While in school I was working full time as a Data Entry coordinator for Boston Scientific Corporation. After finishing school, I was promoted to corporate head quarter as Senior analyst. In 2014 I moved to Chicago with a job at Allstate Insurance corporation as a Sr. QA analyst. I self tought myself Java order to do automation script. About a year and half ago I became as a lead QA Analyst I lead a team 20 QA Analyst located in Northbrook IL, India and Irland.</p>")
         var aboutDiv = $("<div class='content'></div>");
         aboutDiv.attr("value", 2);
         aboutDiv.append(aboutTitle).append(aboutContent);
