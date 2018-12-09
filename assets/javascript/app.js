@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    //functions for materialize
+    //functions 
     $(".dropdown-trigger").dropdown({
         alignment: 'left',
         coverTrigger: false,
@@ -18,7 +18,7 @@ $(document).ready(function () {
 
     function populateAbout() {
         var aboutTitle = $("<p id='about-headText'><span class='red-text'>About Me</span>:</p>");
-        var aboutContent = $("<p id='about-text'>I graduated from Boston, MA with a Bachelor's degree. While in school I was working full time as a Data Entry coordinator for Boston Scientific Corporation. After finishing school, I was promoted to corporate head quarter as Senior analyst. In 2014 I moved to Chicago with a job at Allstate Insurance corporation as a Sr. QA analyst. I self tought myself Java order to do automation script. About a year and half ago I became as a lead QA Analyst I lead a team 20 QA Analyst located in Northbrook IL, India and Irland.</p>")
+        var aboutContent = $("<p id='about-text'>I graduated from Boston, MA with a Bachelor's degree. While in school I was working full time as a Data Entry coordinator for Boston Scientific Corporation. After finishing school, I was promoted to corporate head quarter as Senior analyst. In 2014 I moved to Chicago with a job at Allstate Insurance corporation as a Sr. QA analyst. I self-taught Java order to make my script automated. About a year and half ago I became as a lead QA Analyst I lead a team of 20 QA Analyst located in Northbrook IL, India and Ireland.</p>")
         var aboutDiv = $("<div class='content'></div>");
         aboutDiv.attr("value", 2);
         aboutDiv.append(aboutTitle).append(aboutContent);
@@ -41,12 +41,12 @@ $(document).ready(function () {
 
     function populatePortfolio() {
         var portfolioTitle = $("<p id='portfolio-headText' class='red-text'>Portfolio</p>");
-        //make cards from materialize card
+        //make cards 
         
-        var projcard1 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/wordguessgame.png'><span style='font-size:1.40em;' class='card-title white-text red'>Word Guess Game</span></div><div class='card-content'><p class='card-textcontent'>Word Guess Game.</p></div><a style='font-size:1.40em;padding:10px;' class='red-text' href='https://khanm1.github.io/Word-Guess-Game/' target='_blank'>View Project</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'><a class='black-text' href='https://github.com/khanm1/Word-Guess-Game' target='_blank'>GitHub</a></p></div></div>");
-        var projcard2 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/MTA.png'><span style='font-size:1.40em;' class='card-title white-text red'>Train Schedule App</span></div><div class='card-content'><p class='card-textcontent'>A web application to find the Train schedule and add train schedule using the Google Maps API. </p></div><a style='font-size:1.40em;padding:10px;' class='red-text' href='https://khanm1.github.io/train-schedule/' target='_blank'>View Project</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'><a class='black-text' href='https://github.com/khanm1/train-schedule' target='_blank'>GitHub</a></p></div></div>");
-        var projcard3 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/darkness.png'><span style='font-size:1.40em;' class='card-title white-text red'>Giftastic Web App</span></div><div class='card-content'><p class='card-textcontent'>A web page using the GIPHY API to generate button categories which then generate gifs</p></div><a style='font-size:1.40em;padding:10px;' class='red-text' href='https://khanm1.github.io/giftastic/' target='_blank'>View Project</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'><a class='black-text' href='https://github.com/khanm1/giftastic' target='_blank'>GitHub</a></p></div></div>");
-        var projcard4 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/australia.png'><span style='font-size:1.40em;' class='card-title white-text red'>Trivia Question Game</span></div><div class='card-content'><p class='card-textcontent'>A timed true and false trivia question game created using JavaScript timeout functions and CSS for design</p></div><a style='font-size:1.40em;padding:10px;' class='red-text' href='https://khanm1.github.io/TriviaGame/' target='_blank'>View Project</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'><a class='black-text' href='https://github.com/khanm1/TriviaGame' target='_blank'>GitHub</a></p></div></div>");
+        var projcard1 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/wordguessgame.png'><span style='font-size:1.40em;' class='card-title white-text red'>Word Guess Game</span></div><div class='card-content'><p class='card-textcontent'>Word Guess Game a web page which unser can input guess word.</p></div><a style='font-size:1.40em;padding:10px;' class='red-text' href='https://khanm1.github.io/Word-Guess-Game/' target='_blank'>View Project</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'><a class='black-text' href='https://github.com/khanm1/Word-Guess-Game' target='_blank'>GitHub</a></p></div></div>");
+        var projcard2 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/MTA.png'><span style='font-size:1.40em;' class='card-title white-text red'>Train Schedule App</span></div><div class='card-content'><p class='card-textcontent'>A web application to find the Train schedule and add train schedule using Firebase API. </p></div><a style='font-size:1.40em;padding:10px;' class='red-text' href='https://khanm1.github.io/train-schedule/' target='_blank'>View Project</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'><a class='black-text' href='https://github.com/khanm1/train-schedule' target='_blank'>GitHub</a></p></div></div>");
+        var projcard3 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/darkness.png'><span style='font-size:1.40em;' class='card-title white-text red'>Giftastic Web App</span></div><div class='card-content'><p class='card-textcontent'>A web page using the GIPHY button categories which when user click on buttons generate gifs</p></div><a style='font-size:1.40em;padding:10px;' class='red-text' href='https://khanm1.github.io/giftastic/' target='_blank'>View Project</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'><a class='black-text' href='https://github.com/khanm1/giftastic' target='_blank'>GitHub</a></p></div></div>");
+        var projcard4 = $("<div class='col s12 m6 l4'><div class='card medium'><div class='card-image'><img src='assets/images/australia.png'><span style='font-size:1.40em;' class='card-title white-text red'>Trivia Question Game</span></div><div class='card-content'><p class='card-textcontent'>A timed trivia question game created using JavaScript timeout functions and CSS for design</p></div><a style='font-size:1.40em;padding:10px;' class='red-text' href='https://khanm1.github.io/TriviaGame/' target='_blank'>View Project</a><p style='font-size:1.40em;margin-top: 15px; margin-bottom: 5px;'><a class='black-text' href='https://github.com/khanm1/TriviaGame' target='_blank'>GitHub</a></p></div></div>");
 
         var cardrow = $("<div class='row'></div>");
         cardrow.append(projcard1).append(projcard2).append(projcard3);
@@ -72,7 +72,6 @@ $(document).ready(function () {
     var portfolio = populatePortfolio();
     var contact = populateContact();
     $("#attachDiv").append(intro).append(about).append(portfolio).append(contact);
-    //when user first loads page, only show intro
     
     about.hide();
     portfolio.hide();
