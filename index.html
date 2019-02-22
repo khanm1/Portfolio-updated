@@ -1,56 +1,439 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- make the pic darker     put dimensions around project divs -->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mohammad Khan</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-    <!--Google Font-->
-    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-    <!--My style.css-->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Mohammad Khan - Portfolio</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+  <link
+    href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+    rel='stylesheet' type='text/css'>
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/creative.min.css" rel="stylesheet">
+
 </head>
-<body>
-    <div id="pageBackground" class="container-fluid">
-        <div class="container">
-            <div class="row">
-                <div class="col s12">
-                    <!-- Dropdown Structure -->
-                    <ul id="dropdown1" class="dropdown-content">
-                        <li><a value=1 id="homePage" class="dropdownItems red-text">Home</a></li>
-                        <li><a value=2 id="aboutPage" class="dropdownItems red-text">About</a></li>
-                        <li><a value=3 id="portfolioPage" class="dropdownItems red-text">Portfolio</a></li>
-                        <li><a value=4 id="contactPage" class="dropdownItems red-text">Contact</a></li>
-                    </ul>
-                    <nav class="red">
-                        <div class="nav-wrapper">
-                        <a id="topTitle" class="brand-logo center">Mohammad Khan</a>
-                        <ul class="left">
-                            <!-- Dropdown Trigger -->
-                            <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons">menu</i></a></li>
-                        </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12">
-                    <div id="attachDiv" class="center-align">
-                        <!--Populate the page depending on number using jquery-->
-                    </div>
-                </div>
-            </div>
-        </div>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" id="nav-shadow" href="#page-top">Mohammad Khan</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    
-    <!--Jquery-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-    <!--My Javascript-->
-    <script src="assets/javascript/app.js" type="text/javascript"></script>
+  </nav>
+
+  <header class="masthead text-center text-white d-flex">
+    <div class="container my-auto">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <h1 class="text-uppercase" id="box-shadow">
+            <strong>Hi, I'm Mohammad Khan.</strong>
+            <br>I'm a full-stack developer.</br>
+          </h1>
+          <hr>
+        </div>
+        <div class="col-lg-8 mx-auto">
+          <p class="text-faded mb-5"></p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Learn more about me</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="bg-primary" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <h2 class="section-heading text-white">About Me!</h2>
+          <hr class="light my-4">
+          <p class="text-faded mb-4">I enjoy web development projects where I can apply my skills to find solutions that
+            create meaningful and memorable user experiences.</p>
+          <p class="text-faded mb-4">Since my first exposure to the digital world many years ago, I have always been
+            fascinated with the rapid pace of technology advances, and how technology changes our lives….for better or
+            for worse. I am keen on understanding how technology works “under the hood”.</p>
+          <p class="text-faded mb-4">I have a significant portfolio of knowledge around coaching and training. I am big
+            believer in developing people to make operations run more efficiently. Asking questions and active listening
+            have been an invaluable asset to getting the job done and forging strong relationships.</p>
+
+          <!-- <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- *********************************************************************************** -->
+  <!-- Portfolio -->
+  <!-- *********************************************************************************** -->
+
+
+
+
+
+
+  <section class="p-0" id="portfolio">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters popup-gallery">
+        <div class="col-lg-12 col-sm-12">
+          <br>
+          <!-- FILLER SPACE -->
+        </div>
+
+
+        <!-- Project1 need to change the codes-->
+        <div class="col-lg-3 offset-lg-2 col-sm-3 offset-sm-1">
+          <div class="card" style="width: 25rem;">
+            <div class="card-body">
+              <img class="card-img-top" src="img/portfolio/fullsize/chicago-map.png" alt="Google Maps API">
+              <h5 class="card-title ">Google Maps API</h5>
+              <h6 class="card-subtitle mb-2 text-muted ">ReactJS and ES6 JavaScript</h6>
+              <p class="card-text ">The project creates another tool for Chicago residents, or those interested in
+                moving to Chicago, to use when searching for safe neighborhoods to move to. Users can check crime
+                information by location in for the city of Chicago to get a better understanding of what neighbothoods
+                might be safer than others. </p>
+
+              <a href="https://github.com/khanm1/project1" target="_blank" class="card-link ">Check the code on
+                GitHub</a>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Project2 need to change the codes-->
+        <div class="col-lg-3 offset-lg-2 col-sm-3 offset-sm-1">
+          <div class="card" style="width: 25rem;">
+            <div class="card-body">
+              <img class="card-img-top" src="img/portfolio/fullsize/korean.jpg" alt="Home Sweet Cookin">
+              <h5 class="card-title ">Home Sweet Cookin</h5>
+              <h6 class="card-subtitle mb-2 text-muted ">MVC framework with </h6>
+              <p class="card-text "> The app was set up using the MVC framework that will allow for handling user input,
+                saving it in the database through post and get commands with appropriate routing between the server and
+                the client through controllers.More more more more more more more more more more more more more more
+                more more and more..</p>
+
+              <a href="https://github.com/melher39/team3_project2" target="_blank" class="card-link ">Check the code
+                on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-sm-12">
+          <br>
+          <!-- FILLER SPACE -->
+        </div>
+
+
+        <!-- BURGER -->
+
+        <div class="col-lg-3 offset-lg-2 col-sm-3 offset-sm-1">
+          <div class="card" style="width: 25rem;">
+            <div class="card-body">
+              <img class="card-img-top" src="img/portfolio/fullsize/burger.png" alt="Burger">
+              <h5 class="card-title">Devour the Burger</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Full-Stack with MySql</h6>
+              <p class="card-text">A Node, Express, Handlebars, and MySQL burger app that lets users input the names of
+                burgers they'd like to eat... and then they get to devour them!</p>
+
+              <a href="https://github.com/khanm1/burger" class="card-link" target="_blank">Check the code on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Word-Guess-Game-->
+        <div class="col-lg-3 offset-lg-2 col-sm-3 offset-sm-1">
+          <div class="card" style="width: 25rem;">
+            <div class="card-body">
+              <img class="card-img-top" src="img/portfolio/fullsize/Hangman-Cli.gif" alt="Word-Guess-Game">
+              <h5 class="card-title ">Word-Guess-Game</h5>
+              <h6 class="card-subtitle mb-2 text-muted ">Web Application</h6>
+              <p class="card-text ">Word Guess Game a web page which user can input thier guessing word. User can guess
+                up to 10 words, if they guess right words then the user win the game, if not user loss the game</p>
+
+              <a href="https://github.com/khanm1/Word-Guess-Game" target="_blank " class="card-link ">Check the code on
+                GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-sm-12">
+          <br>
+          <!-- FILLER SPACE -->
+        </div>
+
+
+        <!-- Giftastic -->
+        <div class="col-lg-3 offset-lg-2 col-sm-3 offset-sm-1">
+          <div class="card" style="width: 25rem;">
+            <div class="card-body">
+              <img class="card-img-top" src="img/portfolio/fullsize/giftastic.png" alt="Giftastic">
+              <h5 class="card-title ">Giftastic Web App</h5>
+              <h6 class="card-subtitle mb-2 text-muted ">Web App</h6>
+              <p class="card-text ">A web page using the GIPHY button categories which when user click on buttons
+                generate gifs. When user click one of the gifs it will do whatever gifs describe to do. If user click on
+                the same gifs it will go back to original mode.</p>
+              <a href="https://github.com/khanm1/giftastic" target="_blank" class="card-link ">Check the code on
+                GitHub</a>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- FRIEND FINDER -->
+        <div class="col-lg-3 offset-lg-2 col-sm-3 offset-sm-1">
+          <div class="card" style="width: 25rem;">
+            <div class="card-body">
+              <img class="card-img-top" src="img/portfolio/fullsize/friend.png" alt="friend">
+              <h5 class="card-title ">Friend Finder</h5>
+              <h6 class="card-subtitle mb-2 text-muted ">Full Stack Node App</h6>
+              <p class="card-text ">The Friend Finder app is basically an app for makin' new buddies. This full-stack
+                site
+                will uses surveys to compare answers with other users to make a match. Matches are displayed with match
+                profile picture.</p>
+
+              <a href="https://github.com/khanm1/FriendFinder" target="_blank" class="card-link ">Check the code on
+                GitHub</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-12 col-sm-12">
+          <br>
+          <!-- FILLER SPACE -->
+        </div>
+
+
+
+
+        <!-- LIRI NODE APP -->
+        <div class="col-lg-3 offset-lg-2 col-sm-3 offset-sm-1">
+          <div class="card" style="width: 25rem;">
+            <div class="card-body">
+              <img class="card-img-top" src="img/portfolio/fullsize/liri.png" alt="liri-node">
+              <h5 class="card-title ">Liri - Like Siri, but not quite</h5>
+              <h6 class="card-subtitle mb-2 text-muted ">Node with API calls to Twitter, Spotify & OMDb</h6>
+              <p class="card-text ">LIRI is like iPhone's SIRI. SIRI is a Speech Interpretation and Recognition
+                Interface,
+                LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes
+                in
+                parameters and gives back data.</p>
+
+              <a href="https://github.com/khanm1/liri-node-app" target="_blank" class="card-link ">Check the code on
+                GitHub</a>
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- BAMAZON -->
+        <div class="col-lg-3 offset-lg-2 col-sm-3 offset-sm-1">
+          <div class="card" style="width: 25rem;">
+            <div class="card-body">
+              <img class="card-img-top" src="img/portfolio/fullsize/bamazon.png" alt="bamazon">
+              <h5 class="card-title ">Bamazon: Node retail store</h5>
+              <h6 class="card-subtitle mb-2 text-muted ">Like Amazon but without the front end.</h6>
+              <p class="card-text ">Amazon-like storefront using MySQl and Node.js to track inventory for your Bamazon
+                store. It is comprised of two apps - one for customer orders and one for manager actions. App uses
+                relational database MySQl and JavaScript for functional programming.</p>
+
+              <a href="https://github.com/khanm1/bamazom" target="_blank" class="card-link ">Check the code on
+                GitHub</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-12 col-sm-12">
+          <br>
+          <!-- FILLER SPACE -->
+        </div>
+
+        <!-- TRAIN SCHEDULER -->
+        <div class="col-lg-3 offset-lg-2 col-sm-3 offset-sm-1">
+          <div class="card" style="width: 25rem;">
+            <div class="card-body">
+              <img class="card-img-top" src="img/portfolio/fullsize/train.png " alt="train ">
+              <h5 class="card-title ">Train Scheduler</h5>
+              <h6 class="card-subtitle mb-2 text-muted ">Full-Stack with Firebase</h6>
+              <p class="card-text ">Train schedule application that uses Firebase to host train arrival and departure
+                data.
+                Users can add their own train schedules and Firebase safely stores it. JS algorithms to calculate
+                departure
+                and arrival times</p>
+
+              <a href="https://github.com/khanm1/train-schedule" target="_blank" class="card-link ">Check the code on
+                GitHub</a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+        <div class="col-lg-12 col-sm-12">
+          <br>
+          <!-- FILLER SPACE -->
+        </div>
+
+
+
+
+        <!-- BAMAZON -->
+        <!-- <div class="col-lg-4 col-sm-6 ">
+            <a class="portfolio-box " href="img/portfolio/fullsize/bamazon.png " alt="bamazon ">
+              <div class="links ">
+                <a href="https://drive.google.com/open?id=1myM5Ycymp9T8ULY79YtZSIFycjTSSPl3 " target="_blank ">Check out the video</a>
+              </div>
+              <div class="links ">
+                <a href="https://github.com/Mjohnwright/bamazon " target="_blank ">Check the code on GitHub</a>
+              </div>
+              <img class="img-fluid " src="img/portfolio/thumbnails/bamazon.png " alt="bamazon ">
+              <div class="portfolio-box-caption ">
+                <div class="portfolio-box-caption-content ">
+                  <div class="project-category text-faded ">
+                  </div>
+                  <div class="project-name ">
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div> -->
+
+        <!-- <div class="col-lg-4 col-sm-6 ">
+            <a class="portfolio-box " href="img/portfolio/fullsize/6.jpg ">
+              <img class="img-fluid " src="img/portfolio/thumbnails/6.jpg " alt=" ">
+              <div class="portfolio-box-caption ">
+                <div class="portfolio-box-caption-content ">
+                  <div class="project-category text-faded ">
+                    Category
+                  </div>
+                  <div class="project-name ">
+                    Project Name
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div> -->
+
+
+
+
+
+        <!-- <section class="bg-dark text-white ">
+      <div class="container text-center ">
+        <h2 class="mb-4 ">Free Download at Start Bootstrap!</h2>
+        <a class="btn btn-light btn-xl sr-button " href="http://startbootstrap.com/template-overviews/creative/ ">Download Now!</a>
+      </div>
+    </section> -->
+
+      </div>
+    </div>
+  </section>
+
+  <div class="panel-footer">
+    <section id="contact ">
+      <div class="container " id="contact">
+
+        <div class="row ">
+          <div class="col-lg-8 mx-auto text-center ">
+            <h2 class="section-heading ">Let's Connect!</h2>
+            <hr class="my-4 ">
+            <p class="mb-5 ">I am interested in learning more about your ideas, your projects, and you!</p>
+          </div>
+        </div>
+
+        <div class="row ">
+          <!-- <div class="col-lg-3 ml-auto text-center ">
+            <i class="fa fa-phone fa-3x mb-3 sr-contact "></i>
+            <p>610-780-1122</p>
+          </div> -->
+
+          <div class="col-lg-4 mr-auto text-center ">
+            <i class="fa fa-github-square fa-4x mb-4 sr-contact"></i>
+            <p>
+              <a href="https://github.com/khanm1" target="_blank ">GitHub</a>
+            </p>
+          </div>
+
+          <div class="col-lg-4 mr-auto text-center ">
+            <i class="fa fa-envelope-o fa-4x mb-4 sr-contact "></i>
+            <p>
+              <a href="mailto:khanrafika@yahoo.com">khanrafika@yahoo.com</a>
+            </p>
+          </div>
+
+
+          <div class="col-lg-4 mr-auto text-center ">
+            <i class="fa fa-linkedin-square fa-4x mb-4 sr-contact "></i>
+            <p>
+              <a href="https://www.linkedin.com/in/mohakhan" target="_blank ">LinkedIn</a>
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="panel panel-default" id="footer">
+    <div class="panel-body"> &copy 2019 Mohammad Khan</div>
+    <!-- <div class="panel-footer">Panel Footer</div> -->
+  </div>
+
+
+  <!-- Bootstrap core JavaScript -->
+  <script src=" vendor/jquery/jquery.min.js "></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js "></script>
+  <script src="vendor/scrollreveal/scrollreveal.min.js "></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js "></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js "></script>
 
 </body>
+
 </html>
